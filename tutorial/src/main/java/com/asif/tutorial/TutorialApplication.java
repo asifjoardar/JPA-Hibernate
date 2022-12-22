@@ -11,3 +11,35 @@ public class TutorialApplication {
 	}
 
 }
+
+/*
+
+[
+    {
+        "title": "Spring Boot Tutorial #1",
+        "description": "Description for Tut#1",
+        "published": false
+    },
+    {
+        "title": "Spring Boot Tutorial #3",
+        "description": "Description for Tut#3",
+        "published": false
+    },
+    {
+        "title": "Spring Boot Tutorial #4",
+        "description": "Description for Tut#4",
+        "published": false
+    },
+    {
+        "title": "Spring Boot Tutorial #5",
+        "description": "Description for Tut#5",
+        "published": false
+    },
+    {
+        "title": "Spring Boot Tutorial #2",
+        "description": "Description for Tut#2",
+        "published": true
+    }
+]
+
+*/
