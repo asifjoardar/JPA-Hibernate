@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "8b95532a-ba37-41c8-b5e3-e2674f775196",
+		"name": "tutorialComments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21604347"
+	},
+	"item": [
+		{
+			"name": "postTutorialComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"content\": \"tut#1 Comment 2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tutorials/52/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tutorials",
+						"52",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTutorialComment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tutorials/52/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tutorials",
+						"52",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
